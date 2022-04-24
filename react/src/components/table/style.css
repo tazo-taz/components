@@ -1,0 +1,9 @@
+.tableHeader {
+    cursor: pointer;
+}
+.tableHeader:hover > .tableOnlyOnHover {
+    opacity: 1;
+}
+.tableOnlyOnHover {
+    opacity: 0;
+}
